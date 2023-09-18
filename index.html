@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Oorja - Home</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="hamburger">☰</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Banner -->
+    <div class="header-banner">
+        <!-- Your header banner content goes here -->
+    </div>
+
+    <!-- Text Box -->
+    <div class="text-box">
+        <h1>Welcome to Team Oorja</h1>
+        <p>Your trusted partner in the automobile industry.</p>
+    </div>
+
+    <!-- Slider Gallery -->
+    <div class="slider-gallery">
+        <!-- Your slider gallery content goes here -->
+    </div>
+
+    <!-- About Us Section -->
+    <div class="about-us">
+        <h2>About Us</h2>
+        <p>We are a leading automobile company...</p>
+    </div>
+
+    <!-- Sponsors Section -->
+    <div class="sponsors">
+        <h2>Our Sponsors</h2>
+        <!-- Sponsors' logos go here -->
+    </div>
+    <script type="module">
+        const hamburger = document.querySelector(".hamburger");
+const navUl = document.querySelector("nav ul");
+
+// Function to toggle the navigation menu
+
+// Add a click event listener to the hamburger icon
+if (hamburger && navUl) {
+    hamburger.addEventListener("click", toggleNav);
+}
+function toggleNav() {
+    console.log("Toggle Nav Function Called"); // Add this line
+    navUl.classList.toggle("show");
+}
+
+    </script>
+
+    <!-- Footer -->
+    <footer>
+        <ul class="social-media">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </footer>
+
+    <!-- JavaScript for Animation and Slider (You can add your own scripts here) -->
+    <script src="script.js"></script>
+</body>
+</html>
